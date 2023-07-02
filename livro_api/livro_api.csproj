@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Data\Dtos\" />
   </ItemGroup>
 
 </Project>
