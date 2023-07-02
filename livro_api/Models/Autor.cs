@@ -4,13 +4,16 @@ namespace livro_api.Models;
 
 public class Autor
 {
+    // Propriedade obrigatória que define o Id do autor
     [Key]
     [Required]
     public int Id { get; set; }
 
+    // Propriedade obrigatória que define o nome do autor
     [Required(ErrorMessage = "O nome do autor é obrigatório")]
     public string Nome { get; set; }
 
+    // Propriedade obrigatória que define a biografia do autor
     [Required(ErrorMessage = "A biografia do autor é obrigatória")]
     [StringLength(250, ErrorMessage = "A biografia pode ter apenas 250 caracteres")]
     public string Biografia { get; set; }
