@@ -1,6 +1,8 @@
-﻿namespace livro_api.Profiles;
+﻿using AutoMapper;
 
-public class EditoraProfile
+namespace livro_api.Profiles;
+
+public class EditoraProfile : Profile
 {
     public EditoraProfile()
     {
