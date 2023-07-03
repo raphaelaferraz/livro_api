@@ -1,6 +1,11 @@
-﻿namespace livro_api.Profiles
+﻿using AutoMapper;
+
+namespace livro_api.Profiles;
+
+public class LivroProfile : Profile
 {
-    public class LivroProfile
+    public LivroProfile()
     {
+        
     }
 }
