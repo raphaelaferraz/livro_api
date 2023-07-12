@@ -1,6 +1,11 @@
-﻿namespace livro_api.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace livro_api.Data;
+
+public class LivroContext : DbContext
 {
-    public class LivroContext
+    public LivroContext(DbContextOptions configuracoes) : base(configuracoes)
     {
+        
     }
 }
