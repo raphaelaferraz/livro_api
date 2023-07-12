@@ -4,18 +4,18 @@
 
 ## Descrição do Projeto 📝
 
-<p id="descricao"> Esta é uma API que realiza o cadastro de livros em um banco de dados! Além do livro, é possível cadastrar o seu respectivo autor e a editora que pertece. </p>
+<p id="descricao"> Esta é uma API desenvolvida em C# e .NET que realiza o cadastro de livros. Nesta API é possível, além de cadastrar livros, atualizá-los, cadastrar e atualizar o(a) autor(a) e cadastrar e atualizar a editora. </p>
 
 </br></br>
 
 ## Principais funcionalidades ⚙️
 
 - [x] Cadastro e atualização de um livro
-- [x] Cadastro e atualização de um autor
+- [x] Cadastro e atualização de um(a) autor(a)
 - [x] Cadastro e atualização de uma editora
 - [x] Relação entre o livro, o autor e a editora
 - [x] Listagem de todos os livros, autores e editoras cadastradas
-      </br></br>
+</br></br>
 
 ## Status do Projeto 🎯
 
@@ -37,13 +37,13 @@
 
 <br/>
 
-> Cadastro de um autor:
+> Cadastro de um(a) autor(a):
 
 ![Imagem do WhatsApp de 2023-07-12 à(s) 17 26 01](https://github.com/raphaelaferraz/livro_api/assets/86068799/75597734-ecc6-4bd6-8c3e-5d644589cbec)
 
 <br/>
 
-> Listagem dos autores:
+> Listagem dos(as) autores(as):
 
 ![image](https://github.com/raphaelaferraz/livro_api/assets/86068799/d500b940-1a59-4d10-aab6-1f73d3978073)
 
@@ -63,7 +63,7 @@
 
 ## Tecnologias 🛠️
 
-- [C#]([https://developer.mozilla.org/pt-BR/docs/Web/JavaScript](https://learn.microsoft.com/pt-br/dotnet/csharp/))
+- [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)
 - [PostgreSQL](https://www.postgresql.org/docs/)
 - [.NET](https://learn.microsoft.com/pt-br/dotnet/)
   </br> </br>
