@@ -9,7 +9,7 @@ namespace livro_api.Controllers;
 // Classe principal de Autor
 [ApiController]
 [Route("[controller]")]
-public class AutorController
+public class AutorController : ControllerBase
 {
     // Campo privado que define o contexto do banco de dados
     private LivroContext _context;
