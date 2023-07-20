@@ -11,12 +11,6 @@ public class LivroContext : DbContext
 
     }
 
-    // Indica ao Entity a criação da tabela Livro no banco de dados
-    public DbSet<Livro> Livro { get; set; }
-
     // Indica ao Entity a criação da tabela Autor no banco de dados
     public DbSet<Autor> Autor { get; set; }
-
-    // Indica ao Entity a criação da tabela Editora no banco de dados
-    public DbSet<Editora> Editora { get; set; }
 }
